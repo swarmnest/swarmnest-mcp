@@ -1,0 +1,27 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "ai.swarmnest/mcp",
+  "title": "Swarmnest",
+  "description": "Search AI agent tools, APIs, MCP servers and Agent Skills in the Swarmnest directory.",
+  "version": "1.0.0",
+  "websiteUrl": "https://swarmnest.ai/mcp-server/",
+  "repository": {
+    "url": "https://github.com/swarmnest/swarmnest-mcp",
+    "source": "github"
+  },
+  "icons": [
+    {
+      "src": "https://swarmnest.ai/icon-192.png",
+      "mimeType": "image/png",
+      "sizes": [
+        "192x192"
+      ]
+    }
+  ],
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://swarmnest.ai/mcp"
+    }
+  ]
+}

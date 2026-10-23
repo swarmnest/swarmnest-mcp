@@ -1,0 +1,15 @@
+{
+  "name": "swarmnest-mcp",
+  "version": "1.0.0",
+  "description": "Swarmnest MCP server: search AI agent tools, APIs, MCP servers, Agent Skills and Marketplace products from any MCP client. Remote endpoint https://swarmnest.ai/mcp.",
+  "type": "module",
+  "license": "MIT",
+  "homepage": "https://swarmnest.ai/mcp-server/",
+  "repository": { "type": "git", "url": "https://github.com/swarmnest/swarmnest-mcp.git" },
+  "bin": { "swarmnest-mcp": "bin/stdio.js" },
+  "files": ["bin", "src", "functions", "server.json"],
+  "engines": { "node": ">=18" },
+  "scripts": { "test": "bash test/smoke.sh", "start": "node bin/stdio.js" },
+  "keywords": ["mcp", "model-context-protocol", "mcp-server", "ai-agents", "agent-skills", "directory", "claude", "cursor"],
+  "mcpName": "ai.swarmnest/mcp"
+}
